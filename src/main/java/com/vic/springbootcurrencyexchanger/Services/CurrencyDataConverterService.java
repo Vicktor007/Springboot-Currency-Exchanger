@@ -1,7 +1,6 @@
-package com.vic.springbootcurrencyexchanger;
+package com.vic.springbootcurrencyexchanger.Services;
 
 import com.vic.springbootcurrencyexchanger.Interfaces.CurrencyDataConverter;
-import com.vic.springbootcurrencyexchanger.Services.ApiProviderSwitch;
 import com.vic.springbootcurrencyexchanger.models.Currency;
 import com.vic.springbootcurrencyexchanger.models.CurrencyRateHistory;
 import org.springframework.stereotype.Service;

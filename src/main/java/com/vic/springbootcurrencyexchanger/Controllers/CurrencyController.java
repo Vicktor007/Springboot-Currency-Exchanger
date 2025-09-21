@@ -1,7 +1,7 @@
 package com.vic.springbootcurrencyexchanger.Controllers;
 
 
-import com.vic.springbootcurrencyexchanger.CurrencyDataConverterService;
+import com.vic.springbootcurrencyexchanger.Services.CurrencyDataConverterService;
 import com.vic.springbootcurrencyexchanger.models.Currency;
 import com.vic.springbootcurrencyexchanger.models.CurrencyRateHistory;
 import org.springframework.web.bind.annotation.*;
