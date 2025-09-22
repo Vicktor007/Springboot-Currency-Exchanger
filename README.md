@@ -72,9 +72,9 @@ A JavaFX desktop application that enables users to convert currencies using live
 
 ## 📌 Todo
 
-- Add  UI
+- Add  spring documentation
 - Database integration
-- Caching
+
 
 ---
 
