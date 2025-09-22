@@ -1,7 +1,6 @@
 package com.vic.springbootcurrencyexchanger.ApiConnections;
 
 import com.vic.springbootcurrencyexchanger.Interfaces.CurrencyApiProvider;
-import com.vic.springbootcurrencyexchanger.Utility.ConfigLoader;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;

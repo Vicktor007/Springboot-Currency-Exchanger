@@ -9,5 +9,7 @@ public interface CurrencyDataConverter {
     Double convert(String fromCurrency, String toCurrency, Double value);
     List<Currency> getAllCurrencies();
     List<String> getAllCurrencyNamesAndSignifications(List<Currency> currencies);
+    List<String> getAllCurrencyNamesAndSignifications();
     List<CurrencyRateHistory> getCurrencyRateHistory(String baseCurrency, Integer duration, String toCurrency);
+    List<Currency> findCurrency(List<Currency> currencies, String keyword);
 }
