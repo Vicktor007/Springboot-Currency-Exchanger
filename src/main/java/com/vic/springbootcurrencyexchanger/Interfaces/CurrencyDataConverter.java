@@ -11,5 +11,5 @@ public interface CurrencyDataConverter {
     List<String> getAllCurrencyNamesAndSignifications(List<Currency> currencies);
     List<String> getAllCurrencyNamesAndSignifications();
     List<CurrencyRateHistory> getCurrencyRateHistory(String baseCurrency, Integer duration, String toCurrency);
-    List<Currency> findCurrency(List<Currency> currencies, String keyword);
+    List<Currency> findCurrency(String keyword);
 }

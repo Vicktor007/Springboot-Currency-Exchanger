@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -83,7 +84,8 @@ public class CurrencyDataConverterService implements CurrencyDataConverter {
     }
 
     @Override
-    public List<Currency> findCurrency(List<Currency> currencies, String keyword) {
+    public List<Currency> findCurrency( String keyword) {
+        List<Currency> currencies = self.getAllCurrencies();
         if (keyword == null || keyword.isBlank()) {
 
             return currencies;
